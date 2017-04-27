@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "ull shape rectangle",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --require should"
+    "test": "./node_modules/mocha/bin/mocha --require should",
+    "doc": "documentation build ./rectangle.js -f html -o docs"
   },
   "repository": {
     "type": "git",
